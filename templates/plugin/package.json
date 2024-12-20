@@ -1,0 +1,37 @@
+{
+  "name": "template-blank-3.0",
+  "version": "1.0.0",
+  "description": "A blank template to get started with Payload 3.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "payload run ./dev/server.ts",
+    "lint": "next lint",
+    "payload": "PAYLOAD_CONFIG_PATH=./dev/payload.config.ts payload"
+  },
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@payloadcms/db-mongodb": "latest",
+    "@payloadcms/next": "latest",
+    "@payloadcms/payload-cloud": "latest",
+    "@payloadcms/richtext-lexical": "latest",
+    "@types/node": "^22.5.4",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "15.1.0",
+    "payload": "latest",
+    "prettier": "^3.4.2",
+    "sharp": "0.32.6",
+    "typescript": "5.7.2"
+  },
+  "engines": {
+    "node": "^18.20.2 || >=20.9.0"
+  }
+}
